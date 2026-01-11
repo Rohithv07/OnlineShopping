@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+package com.rohith.microservices.order.controller;
+
+/**
+ * 
+ */
+public class OrderController {
+
+}

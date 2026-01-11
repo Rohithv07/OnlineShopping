@@ -1,0 +1,37 @@
+# --- Build Artifacts ---
+**/target/
+**/build/
+**/out/
+.gradle/
+bin/
+
+# --- Database & Local Data (CRITICAL) ---
+**/data/
+**/mysql/
+**/mongodb/
+*.wt
+WiredTiger*
+diagnostic.data/
+journal/
+*.log
+
+# --- IDE & OS ---
+.idea/
+*.iml
+*.iws
+*.ipr
+.settings/
+.classpath
+.project
+.factorypath
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Spring Boot & Local Config ---
+mvnw
+mvnw.cmd
+.mvn/wrapper/maven-wrapper.jar
+application-local.properties
+application-local.yml
+.env
