@@ -35,4 +35,6 @@ mvnw.cmd
 application-local.properties
 application-local.yml
 .env.metadata/
-./metadata
+.metadata/
+**/.metadata/
+.metadata
