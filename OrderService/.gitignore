@@ -1,0 +1,38 @@
+# --- Build Tools ---
+target/
+build/
+.gradle/
+bin/
+out/
+
+# --- IDE Specific ---
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+# Eclipse
+.settings/
+.classpath
+.project
+.metadata
+# VS Code
+.vscode/
+
+# --- Spring Boot & Environment ---
+*.log
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/resources/*.yaml
+!**/src/main/resources/*.properties
+
+# Local configuration (Secrets & DB credentials)
+application-local.properties
+application-local.yml
+.env
+.DS_Store
+
+# --- OS Specific ---
+Thumbs.db
+desktop.ini
+**/data/
