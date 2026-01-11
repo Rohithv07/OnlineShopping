@@ -1,0 +1,6 @@
+package com.rohith.microservices.order.service;
+
+
+public interface OrderService {
+
+}

@@ -1,0 +1,16 @@
+package com.rohith.microservices.order.service;
+
+import org.springframework.stereotype.Service;
+
+import com.rohith.microservices.order.dto.OrderRequest;
+
+@Service
+public class OrderServiceImpl implements OrderService{
+
+	@Override
+	public void placeOrder(OrderRequest orderRequest) {
+		
+	}
+
+	
+}

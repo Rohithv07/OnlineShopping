@@ -1,0 +1,5 @@
+package com.rohith.microservices.order.repository;
+
+public class OrderRepository {
+
+}
