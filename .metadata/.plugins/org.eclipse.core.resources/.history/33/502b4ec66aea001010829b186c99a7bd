@@ -1,5 +1,0 @@
-package com.rohith.microservices.order.dto;
-
-public record OrderRequest() {
-
-}
